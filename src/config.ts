@@ -3,89 +3,92 @@ export const siteConfig = {
   title: "Aspiring Penetration Tester & Security Learner",
   description: "Portfolio website of Gustav Kift",
   accentColor: "#1d4ed8",
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
+    email: "contact@example.com",
+    linkedin: "https://linkedin.com/in/gustav-kift",
+    twitter: "https://x.com",
     github: "https://github.com/gustav-kift",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm an aspiring penetration tester and self-taught developer currently learning cybersecurity, networking, and Python-based tooling. I'm especially interested in offensive security, CTF challenges, and building practical automation systems. I enjoy creating software that solves real problems — including AI-powered productivity tools and backend pipelines. I'm working toward beginner pentesting certifications and building hands-on experience through projects, labs, and writeups.",
+
+  skills: [
+    "Python",
+    "JavaScript",
+    "Astro",
+    "Linux",
+    "Git",
+    "Networking Basics",
+    "Web Security Fundamentals",
+    "API Development"
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Nornir – AI Productivity Pipeline",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A full workflow automation system that connects Canvas exports, AI-powered homework extraction, Google Calendar context gathering, task breakdown, time estimation, and scheduling. Built as a modular, inspectable backend using Python.",
+      link: "https://github.com/gustav-kift/Nornir",
+      skills: ["Python", "APIs", "LLMs", "OAuth", "Automation"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "LLM Cognitive Architecture Experiments",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A collection of early-stage prototypes exploring planning, task decomposition, reasoning loops, and structured pipelines using multiple LLM providers.",
+      link: "https://github.com/gustav-kift", // replace with repo
+      skills: ["Python", "Prompt Engineering", "System Design"],
     },
     {
-      name: "ExtensionKit",
+      name: "Portfolio Website",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "This portfolio built with Astro and deployed via Vercel. Includes modular configuration and custom components for showcasing projects and cybersecurity work.",
+      link: "https://gustav-kift.vercel.app", // or your domain
+      skills: ["Astro", "HTML/CSS", "GitHub", "Vercel"],
+    },
+    {
+      name: "Beginner Pentesting Labs & Writeups",
+      description:
+        "A growing collection of writeups from TryHackMe, HackTheBox (retired boxes), and local vulnerable labs. Focused on enumeration, privilege escalation, and methodology.",
+      link: "https://gustav-kift.github.io/writeups", // adjust
+      skills: ["Linux", "Networking", "Web Security", "Documentation"],
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Independent Learning",
+      title: "Self-Taught Developer & Cybersecurity Learner",
+      dateRange: "Ongoing",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Building practical tools in Python, including automation pipelines and basic security scripts.",
+        "Studying networking, web technologies, Linux, and beginner penetration testing techniques.",
+        "Practicing hands-on skills in platforms like TryHackMe and HackTheBox.",
+        "Writing beginner-friendly notes and summaries to track learning progress.",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Self-Directed",
+      degree: "Cybersecurity & Programming Learning Path",
+      dateRange: "Current",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Completed multiple foundational courses in cybersecurity and Python development.",
+        "Actively practicing hands-on labs in web security, enumeration, and CTF challenges.",
+        "Working toward entry-level pentesting certifications.",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Online Platforms",
+      degree: "Programming & AI Coursework",
+      dateRange: "2023 - Present",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Built several open-source Python projects using APIs and LLMs.",
+        "Studied Python, JavaScript, backend development, and AI tooling.",
+        "Exploring AI-assisted automation and cognitive architecture concepts.",
       ],
     },
   ],
