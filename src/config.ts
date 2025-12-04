@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Gustav Kift",
   title: "Aspiring Penetration Tester & Security Learner",
   description: "Portfolio website of Gustav Kift",
-  accentColor: "#2a3b24", //#1d4ed8
+  accentColor: "#1d4ed8", //#2a3b24
 
   social: {
     email: "contact@example.com",
